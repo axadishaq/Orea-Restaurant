@@ -1,8 +1,9 @@
 import { Menu, Phone, X } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router";
+import React from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
    const [navOpen, setNavOpen] = useState(false);
 
    return (
@@ -58,3 +59,5 @@ export const Navbar = () => {
       </div>
    );
 };
+
+export default Navbar;

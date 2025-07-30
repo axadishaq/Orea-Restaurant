@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ReservationSection = () => {
+const ReservationSection = () => {
    return (
       <section className="bg-[#f1f3e6] min-h-screen flex items-center justify-center px-4">
          <div className="max-w-4xl w-full text-center py-16">
@@ -37,3 +37,5 @@ export const ReservationSection = () => {
       </section>
    );
 };
+
+export default ReservationSection;

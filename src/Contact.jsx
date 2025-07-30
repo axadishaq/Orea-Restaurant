@@ -1,11 +1,10 @@
 import React from "react";
-import bgImage from "./assets/050a676d6592fe9fb77b0c6601ab914d2ad23f01.jpg";
 export const Contact = () => {
    return (
       <>
          <section
             className="flex-1 w-full bg-cover bg-center h-screen flex flex-col md:flex-row bg-blend-multiply bg-green-200"
-            style={{ backgroundImage: `url(${bgImage})` }}>
+            style={{ backgroundImage: `url()` }}>
             <div className="flex flex-col gap-6 items-start justify-center px-1 sm:px-4  lg:px-24 min-h-120">
                <h1 className="text-6xl px-4">Get in Touch</h1>
                <p className="text-xl px-8">
